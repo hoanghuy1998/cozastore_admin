@@ -12,6 +12,7 @@
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
     "formik": "^2.2.9",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.4",
     "react-debounce-input": "^3.2.5",
@@ -29,9 +30,7 @@
     "start": "set PORT=3006 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": " https://hoanghuy1998.github.io/cozastore_admin"
+  }
 }
